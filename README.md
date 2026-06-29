@@ -1,2 +1,2 @@
 # high-performance-computing-project
-final project for ITC4558A1 - HIGH PERFORMANCE COMPUTING at ACG
+This project implements the A-Priori frequent itemset mining algorithm with O(2^|D|) time and space complexity and analyzes three parallelization strategies: shared-memory multithreading (low overhead, limited scalability), distributed-memory message passing (MPI-style, horizontally scalable), and divide-and-conquer with a Fork/Join model (recursive decomposition with bottom-up aggregation). Each strategy is evaluated for speedup potential, efficiency, and trade-offs at scale.
